@@ -10,7 +10,8 @@
 - Подходит для очень широкого круга людей: от художников до астрономов
 - Светлая сторона силы
 
-![yoda](http://fc05.deviantart.net/fs37/i/2008/280/4/d/Yoda_Cartoon_by_Raphaelgbr.jpg)
+![yoda](img/yoda.jpg)
+
 (c) http://raphaelgbr.deviantart.com/art/Yoda-Cartoon-100020385
 
 
@@ -29,7 +30,7 @@
 
 ## Реализации
 
-![Реализации](img/lisps.jpg)
+![Реализации](http://sbcl.org/sbclbutton.png)
 
 Более 20, из которых около 8 активно поддерживаются и развиваются
 
