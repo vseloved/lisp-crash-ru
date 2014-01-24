@@ -104,26 +104,26 @@ Lisp reader читает всё в каком-то пакете, который 
 1. Перечислите, какие еще литералы в Lisp'е вам встречались или найти какие-то литералы.
 2. Почему в этой форме требуется использовать оператор `progn`? Можно ли обойтись без него и как?
 
-    (if (some-condition-holds)
-        (progn (do-this)
-               (do-that))
-        (dont-do-it))
+       (if (some-condition-holds)
+           (progn (do-this)
+                  (do-that))
+           (dont-do-it))
 
 3. Отобразите в Lisp нотации следующюю комбинацию логических условий:
 
-    isShort(sentence) && (isEnglish(sentence) || (isLowerCase(sentence.start()) && !matches(sentence)))
+       isShort(sentence) && (isEnglish(sentence) || (isLowerCase(sentence.start()) && !matches(sentence)))
 
 4. Отобразите в Lisp нотации следующее дерево синтаксического разбора предложения:
 
-                   TOP
-                    |
-                    S
-         /          |            \
-        NP          VP            .
-        |        /     \          |
-        DT      VB      NP       "."
-        |       |      /  \
-      "This"  "is"    DT   NN
-                      |     |
-                     "a"  "test"
+                    TOP
+                     |
+                     S
+          /          |            \
+         NP          VP            .
+         |        /     \          |
+         DT      VB      NP       "."
+         |       |      /  \
+       "This"  "is"    DT   NN
+                       |     |
+                      "a"  "test"
 
