@@ -45,7 +45,7 @@
 
 ## IDE
 
-![Emacs](img/emacs.png)
+![Emacs](img/emacs.jpg)
 
 - Notepad (+CLisp)
 - [Able](http://common-lisp.net/project/able/)
