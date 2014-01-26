@@ -5,7 +5,7 @@
 ![Атом](http://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Stylised_Lithium_Atom.png/200px-Stylised_Lithium_Atom.png)
 
 - Числа: `1`, `0.1`, `1e-1`, `1/10`, `#c(0 -1)`
-- Буквы: `#\a, `#\ї`, `#\Space`
+- Буквы: `#\a`, `#\ї`, `#\Space`
 - Строки: `"hello world"`
 - Массивы: `#(1 2 3)`, `#2A((1 0) (0 1))`
 - Символы: `foo`, `foo:bar`, `foo::bar`, `*standard-output*`, `:bar` (ключи)
