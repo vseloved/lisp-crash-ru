@@ -123,7 +123,7 @@ Lisp reader читает всё в каком-то пакете, который 
          |        /     \          |
          DT      VB      NP       "."
          |       |      /  \
-       "This"  "is"    DT   NN
-                       |     |
-                      "a"  "test"
+        "This"  "is"    DT   NN
+                        |     |
+                       "a"  "test"
 
