@@ -137,25 +137,25 @@
 
 1. Прочитайте:
 [Macros: Standard Control Constructs](http://www.gigamonkeys.com/book/macros-standard-control-constructs.html) и
-[http://www.gigamonkeys.com/book/macros-defining-your-own.html](http://www.gigamonkeys.com/book/macros-defining-your-own.html)
+[Macros: Defining Your Own](http://www.gigamonkeys.com/book/macros-defining-your-own.html)
 
 2. Макрос `doindex` — это аналог `dolist`, который дополнительно дает доступ к индексу текущего элемента в списке. Например:
 
-    CL-USER> (dolist (x '(a b c))
-               (print x))
-    A
-    B
-    C
-    CL-USER> (doindex (i x '(a b c))
-               (print (list i x)))
-    (0 A)
-    (1 B)
-    (2 C)
+        CL-USER> (dolist (x '(a b c))
+                   (print x))
+        A
+        B
+        C
+        CL-USER> (doindex (i x '(a b c))
+                   (print (list i x)))
+        (0 A)
+        (1 B)
+        (2 C)
 
 Заполните ... в реализации этого макроса:
 
-    (defmacro doindex ((index element) list)
-      ...)
+        (defmacro doindex ((index element) list)
+          ...)
 
 3. Можно ли в Lisp'е создать макрос-аналог выражения `for` в Python,
    который бы позволял итерацию по любой структуре, которая реализует итератор?
