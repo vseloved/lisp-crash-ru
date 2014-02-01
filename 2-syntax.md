@@ -113,7 +113,7 @@ Lisp reader читает всё в каком-то пакете, который 
 
 3. Отобразите в Lisp нотации следующюю комбинацию логических условий:
 
-       isShort(sentence) && (isEnglish(sentence) || (isLowerCase(sentence.start()) && !matches(sentence)))
+        isShort(sentence) && (isEnglish(sentence) || (isLowerCase(sentence.start()) && !matches(sentence)))
 
 4. Отобразите в Lisp нотации следующее дерево синтаксического разбора предложения:
 
