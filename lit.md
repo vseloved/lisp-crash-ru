@@ -4,7 +4,7 @@
 
 - [Common Lisp Hyperspec](http://www.lispworks.com/documentation/lw70/CLHS/Front/Contents.htm)
 - [Common Lisp Quick Reference](http://clqr.boundp.org/)
-- [PCL](http://www.gigamonkeys.com/book/small-cover.gif)
+- [Practical Common Lisp](http://www.gigamonkeys.com/book/small-cover.gif)
 - [ANSI CL на русском](http://www.books.ru/books/ansi-common-lisp-fail-3127808/)
 
 ## Вопросы стиля
