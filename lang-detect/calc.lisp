@@ -1,0 +1,21 @@
+(in-package :lang-detect)
+
+(defun detect-lang (text)
+  (let ((words (split-words text))
+        (rez (make-hash-table))
+        (max 0)
+        argmax)
+    (dolist (lang *langs*)
+      (let ((freqs (gethash lang *freqs*))
+            (total (gethash lang *totals*))
+            (prob 1))
+        (dolist (word words)
+          (let ((freq (gethash word freqs 0)))
+            (setf prob (* prob (/ (+ 1 freq) total)))))
+        (setf (gethash lang rez) prob)))
+    (rutil:dotable (lang prob rez)
+      (when (> prob max)
+        (setf max prob
+              argmax lang)))
+    (values argma
+            rez)))
