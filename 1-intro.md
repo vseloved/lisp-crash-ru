@@ -75,7 +75,7 @@
 
 Простые рецепты — [CL Cookbook](http://cl-cookbook.sourceforge.net/), слегка устаревшие
 
-Вопросы стиля — [Google Common Lisp Style Guide](http://google-styleguide.googlecode.com/svn/trunk/lispguide.xml), [Tutorial on Good Lisp Style]()
+Вопросы стиля — [Google Common Lisp Style Guide](https://google.github.io/styleguide/lispguide.xml), [Tutorial on Good Lisp Style]()
 
 Код из книг — [lispdoc](http://lispdoc.com/)
 
