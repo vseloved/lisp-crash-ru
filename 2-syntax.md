@@ -112,7 +112,7 @@ Lisp reader читает всё в каком-то пакете, который 
                    (do-that))
             (dont-do-it))
 
-3. Отобразите в Lisp нотации следующюю комбинацию логических условий:
+3. Отобразите в Lisp нотации следующую комбинацию логических условий:
 
         isShort(sentence) && (isEnglish(sentence) || (isLowerCase(sentence.start()) && !matches(sentence)))
 
@@ -129,4 +129,3 @@ Lisp reader читает всё в каком-то пакете, который 
         "This"  "is"    DT   NN
                         :     :
                        "a"  "test"
-
